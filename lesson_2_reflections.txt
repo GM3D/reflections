@@ -18,3 +18,7 @@ To do so, keep your master branch clean of any untested changes, instead make an
 How do the diagrams help you visualize the branch structure?
 
 * With using git log --graph (possibly with --oneline) [branch names...], you can easily tell how the whole branch structure was developed and at which point each branch was actually created. That would give you the overview of the whole structure of the project you are working on, so that you can tell what you are specifically focusing on and when and which branch to merge your work.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+* All the commits in the second branch is merged into the first branch, and the resluting merge commit becomes the new head of your current branch. The diagram shown by git log --graph cleary shows the merged commit has two parents, which correspond to the prior heads of each merged branch.
