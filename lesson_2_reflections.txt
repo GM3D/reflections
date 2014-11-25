@@ -14,3 +14,7 @@ What are some situations when branches would be helpful in keeping your history 
 
 * When you want to try adding an experimental feature while keeping your software working without breaking.
 To do so, keep your master branch clean of any untested changes, instead make an experimental branch for any new feature that needs experimenting. After the new functionality gets stable enough to go into the master branch, you could merge the experimental branch into the master.
+
+How do the diagrams help you visualize the branch structure?
+
+* With using git log --graph (possibly with --oneline) [branch names...], you can easily tell how the whole branch structure was developed and at which point each branch was actually created. That would give you the overview of the whole structure of the project you are working on, so that you can tell what you are specifically focusing on and when and which branch to merge your work.
