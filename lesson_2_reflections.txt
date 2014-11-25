@@ -22,3 +22,13 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 * All the commits in the second branch is merged into the first branch, and the resluting merge commit becomes the new head of your current branch. The diagram shown by git log --graph cleary shows the merged commit has two parents, which correspond to the prior heads of each merged branch.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Pros:
+* Saves your time, especially when each non-conflicting merge is trivial.
+* Makes you concentrate on the changes which actually contain conflicts.
+
+Cons:
+* Can't thnink of any definite ones. Maybe can make it easier to overlook the potentially dangerous situation where two person are working on the same file at the same time.
+
