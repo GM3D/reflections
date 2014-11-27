@@ -30,7 +30,10 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Enables you to keep the state of the remote repository at your
+    hand while you work on your branch locally, and also makes it
+    easier for you to merge your own commits to the remote by merging
+    it locally before you push to the remote.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
