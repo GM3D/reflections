@@ -38,7 +38,15 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Without Git, you could, as we did in older days, make a patch file
+    which is the output of diff command between the base source code
+    and your modified one. Or you could even send simply a modified
+    file of your own. In either case, it would be somewhat harder if
+    there happen to be conflicsts with someone else's modification.
+    On the other hand, without using git or other version control
+    system, potentially it might be easier for someone who is not
+    aquainted with how to use such system, to contribute to the
+    repository.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
