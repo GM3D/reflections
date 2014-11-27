@@ -51,4 +51,9 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Working in a separate branch ensures that your master branch is
+    always kept in a working state. You can try and experiment new
+    functionality or algorithm in the new branch untill you are sure
+    it works without breaking anything. On the other hand, an obvious
+    fix for e.g. easy misspelling would not need much experimenting
+    and could be fixed directly in the master branch.
